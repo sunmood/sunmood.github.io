@@ -1,9 +1,11 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Hello World
+categories:
+  - Hello
+  - Java
+description: desc
+keywords: 'hello, sunmood'
 ---
 
-Content here
+# Hello Java
