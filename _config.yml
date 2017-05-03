@@ -2,9 +2,8 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://sunmood.org
 date_format: "ordinal"
-title: I am Sen!
+title: I am SunMood!
 subtitle: "change the world"
 keywords: sunmood
 favicon: /favicon.png
