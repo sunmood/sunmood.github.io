@@ -5,3 +5,8 @@
       - Bootstrap
       - Spring
       - Hibernate
+
+- name: Interest
+  keywords:
+      - sports
+      - food

@@ -18,7 +18,7 @@ permalink: /about/
 
 {% for category in site.data.skills %}
 
-## {{ category.name }}
+- ### {{ category.name }}
 
 <div class="btn-inline">
 {% for keyword in category.keywords %}
