@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: 改变世界
+description: info
 keywords: sunmood
 comments: true
 menu: 关于
