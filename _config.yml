@@ -75,6 +75,7 @@ collections:
         permalink: /wiki/:path/
 
 repository: sunmood/sunmood.github.io
+repository: sunmood/JSPTag
 
 # ---------------- #
 #    Analytics     #
