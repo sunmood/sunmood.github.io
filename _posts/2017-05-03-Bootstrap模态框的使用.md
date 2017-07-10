@@ -3,13 +3,14 @@ layout: post
 title: Bootstrap模态框的使用
 categories:
   - Bootstrap
+  - 前端
 description: null
 keywords: Bootstrap
 ---
 
-# Bootstrap模态框的使用
+# Bootstrap模态框的使用，实现原页面和弹出框页面分离
 
-### 在做项目的过程中，使用到了bootstrap中的模态框。为了适应项目需求，对模态框的使用进行了一定的调整，分离了原页面和弹出框页面。具体如下：
+### 分离了原页面和弹出框页面。具体如下：
 
 **1. 页面需要引入的js代码**
 
