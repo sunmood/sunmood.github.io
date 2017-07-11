@@ -31,13 +31,13 @@ Summernote是一个JavaScript库，可帮助您在线创建所见即所得编辑
 <script src="summernote.js"></script>
 ```
 
-3. 创建一个目标div
+3. 创建一个目标div。
 
 ```
 <div id="summernote">Hello Summernote</div>
 ```
 
-4. 根据id进行初始化（当需要多个富文本框时，也可以在div中设置class属性，根据class属性进行初始化）
+4. 根据id进行初始化。（当需要多个富文本框时，也可以在div中设置class属性，根据class属性进行初始化）
 
 ```
 $(document).ready(function() {
