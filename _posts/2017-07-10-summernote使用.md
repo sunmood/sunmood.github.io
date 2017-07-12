@@ -15,9 +15,9 @@ Summernote是一个JavaScript库，可帮助您在线创建所见即所得编辑
 
 ## 安装使用
 
-1. 下载summernote，[summernote官网](http://summernote.org/)，[summernote在GitHub上的地址](https://github.com/summernote/summernote)
+- 下载summernote，[summernote官网](http://summernote.org/)，[summernote在GitHub上的地址](https://github.com/summernote/summernote)
 
-2. 在页面中引入。因为Summernote基于jQuery和Bootstrap库，
+- 在页面中引入。因为Summernote基于jQuery和Bootstrap库，
 所以我们在使用的使用需要引入jQuery和Bootstrap。
 
 ```
@@ -31,13 +31,13 @@ Summernote是一个JavaScript库，可帮助您在线创建所见即所得编辑
 <script src="summernote.js"></script>
 ```
 
-3. 创建一个目标div。
+- 创建一个目标div。
 
 ```
 <div id="summernote">Hello Summernote</div>
 ```
 
-4. 根据id进行初始化。（当需要多个富文本框时，也可以在div中设置class属性，根据class属性进行初始化）
+- 根据id进行初始化。（当需要多个富文本框时，也可以在div中设置class属性，根据class属性进行初始化）
 
 ```
 $(document).ready(function() {
@@ -47,7 +47,7 @@ $(document).ready(function() {
 
 ## 在项目中的使用
 
-1. jsp页面中的代码
+- jsp页面中的代码
 
 ```
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -75,7 +75,7 @@ $(document).ready(function() {
 
 ```
 
-2. `<script src="/static/js/init_summernote.js"></script>`，这一句引入自己定义的初始化summernote的js代码。
+- `<script src="/static/js/init_summernote.js"></script>`，这一句引入自己定义的初始化summernote的js代码。
 `init_summernote.js`页面的代码如下
 
 ```
