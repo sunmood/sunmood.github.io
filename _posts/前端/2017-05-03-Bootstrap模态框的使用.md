@@ -3,7 +3,6 @@ layout: post
 title: Bootstrap模态框的使用
 categories:
   - Bootstrap
-  - 前端
 description: null
 keywords: Bootstrap
 ---

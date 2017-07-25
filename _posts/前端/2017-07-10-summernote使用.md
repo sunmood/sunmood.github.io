@@ -3,13 +3,11 @@ layout: post
 title: summernote的使用
 categories:
   - summernote
-  - 前端
 description: summernote的使用
 keywords: 'summernote, 富文本编辑器'
 ---
 
 # 富文本编辑器summernote
-
 
 Summernote是一个JavaScript库，可帮助您在线创建所见即所得编辑器。
 
@@ -17,12 +15,11 @@ Summernote是一个JavaScript库，可帮助您在线创建所见即所得编辑
 
 - 下载summernote，[summernote官网](http://summernote.org/)，[summernote在GitHub上的地址](https://github.com/summernote/summernote)
 
-- 在页面中引入。因为Summernote基于jQuery和Bootstrap库，
-所以我们在使用的使用需要引入jQuery和Bootstrap。
+- 在页面中引入。因为Summernote基于jQuery和Bootstrap库， 所以我们在使用的使用需要引入jQuery和Bootstrap。
 
 ```
 <!-- include libraries(jQuery, bootstrap) -->
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -72,11 +69,9 @@ $(document).ready(function() {
 </div>
 </body>
 </html>
-
 ```
 
-- `<script src="/static/js/init_summernote.js"></script>`，这一句引入自己定义的初始化summernote的js代码。
-`init_summernote.js`页面的代码如下
+- `<script src="/static/js/init_summernote.js"></script>`，这一句引入自己定义的初始化summernote的js代码。 `init_summernote.js`页面的代码如下
 
 ```
 $(document).ready(function(){
@@ -140,11 +135,10 @@ $(document).ready(function(){
     }
 
 });
-
 ```
 
 我们自己定义了图片上传的方法，后台使用SpringMVC上传图片。
 
 页面效果如下
 
-<img src="http://sunmood.github.io/assets/images/summernote/example.png"/>
+![](http://sunmood.github.io/assets/images/summernote/example.png)
