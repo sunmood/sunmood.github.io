@@ -1,0 +1,19 @@
+@startuml
+
+abstract class AbstractFactory{
+    Product factoryMethod()
+}
+class ConcreteFactory{
+    Product factoryMethod()
+}
+AbstractFactory <|-- ConcreteFactory
+
+abstract class Product
+Product <|-- ConcreteProduct
+
+ConcreteFactory ..> ConcreteProduct
+
+note right of AbstractFactory : Product = factoryMethod()
+note right of ConcreteFactory : ConcreteProduct = factoryMethod()
+
+@enduml

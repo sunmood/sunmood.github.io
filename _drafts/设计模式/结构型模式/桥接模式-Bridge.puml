@@ -1,0 +1,21 @@
+@startuml
+note "桥接模式——处理多维度变化" as title
+
+class Client
+Client <.. Abstraction
+Client <.. Implementor
+abstract class Abstraction
+class RefinedAbstractionA
+class RefinedAbstractionB
+Abstraction <|--- RefinedAbstractionA
+Abstraction <|--- RefinedAbstractionB
+
+interface Implementor
+class ConcreteImplementorA
+class ConcreteImplementorB
+Implementor <|... ConcreteImplementorA
+Implementor <|... ConcreteImplementorB
+
+Abstraction o- Implementor
+
+@enduml

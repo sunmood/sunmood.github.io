@@ -1,0 +1,38 @@
+@startuml
+note "建造者模式类图" as title
+
+class Director{
+    - Builder builder
+..调用Builder中的方法创建Product并返回..
+    + construct()
+}
+note bottom of Director
+buildPartA()
+buildPartB()
+buildPartC()
+return builder.getResult()
+end note
+
+abstract class Builder{
+..分别创建Product的各个部分..
+    + buildPartA()
+    + buildPartB()
+    + buildPartC()
+..返回创建完成的Product..
+    + getResult()
+}
+
+class ConcreteBuilder{
+    + buildPartA()
+    + buildPartB()
+    + buildPartC()
+    + getResult()
+}
+
+class Product
+
+Director "builder" o- Builder
+Builder <|-- ConcreteBuilder
+ConcreteBuilder .> Product
+
+@enduml

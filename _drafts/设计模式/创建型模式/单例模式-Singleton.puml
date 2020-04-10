@@ -1,0 +1,10 @@
+@startuml
+class Singleton{
+    - instance : Singleton
+    - Singleton()
+    + GetInstance() : Singleton
+}
+
+Singleton <--o "instance" Singleton
+note bottom of Singleton : if(instance == null) \n  instance = new Singleton(); \nreturn instance;
+@enduml

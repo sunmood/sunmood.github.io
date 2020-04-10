@@ -1,0 +1,10 @@
+@startuml
+
+class Facade
+class SubSystemA
+class SubSystemB
+
+Facade --> SubSystemA
+Facade --> SubSystemB
+
+@enduml

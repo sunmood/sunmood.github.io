@@ -1,0 +1,12 @@
+@startuml
+note "装饰者模式" as title
+abstract class Component
+class ConcreteComponent
+abstract class Decorator
+class ConcreteDecorator
+
+Component <|-- ConcreteComponent
+Component <|-- Decorator
+Component <--o Decorator
+Decorator <|-- ConcreteDecorator
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+
+class Target{
+    request()
+}
+class Adapter{
+    request()
+}
+class Adaptee{
+    specificRequest()
+}
+Client .> Target
+Target <|-- Adapter
+Adapter "adaptee"--> Adaptee
+note bottom of Adapter: adaptee.specificRequest()
+@enduml
