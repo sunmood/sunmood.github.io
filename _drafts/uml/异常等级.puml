@@ -1,0 +1,14 @@
+@startuml
+Throwable <|-- Error
+Error <|-- IOError
+Error <|-- LinkageError
+Error <|-- ThreadDeath
+
+Throwable <|-- Exception
+Exception <|-- RuntimeException
+Exception <|-- IOException
+Exception <|-- SQLException
+RuntimeException <|-- IndexOutOfBoundsException
+RuntimeException <|-- NullPointerException
+RuntimeException <|-- ClassCastException
+@enduml
