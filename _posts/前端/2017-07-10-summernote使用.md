@@ -2,12 +2,10 @@
 layout: post
 title: summernote的使用
 categories:
-  - summernote
+  - Bootstrap
 description: summernote的使用
 keywords: 'summernote, 富文本编辑器'
 ---
-
-# 富文本编辑器summernote
 
 Summernote是一个JavaScript库，可帮助您在线创建所见即所得编辑器。
 
