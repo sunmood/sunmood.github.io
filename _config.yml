@@ -16,7 +16,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 author: sunmood
 github_username: sunmood
-location: Beijing, China
+location: Zhengzhou, China
 email: sunmood2017@163.com
 
 # ---------------- #
@@ -30,14 +30,6 @@ navs:
   -
     href: /categories/
     label: 分类
-
-  -
-    href: /wiki/
-    label: 维基
-
-  -
-    href: /links/
-    label: 链接
 
   -
     href: /about/
