@@ -189,7 +189,7 @@ public class BookRepositoryImpl implements BookRepository {
 
 ## 开启缓存
 
-在Spring的应用程序中，你需要在任意一个`@Configuration`修饰的雷伤添加注解`@EnableCaching`来开始缓存：
+在Spring的应用程序中，你需要在任意一个`@Configuration`修饰的类上添加注解`@EnableCaching`来开始缓存：
 ```
 @Configuration
 @EnableCaching
