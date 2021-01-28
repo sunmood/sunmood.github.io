@@ -2,9 +2,9 @@
 layout: post
 title: Cache Abstraction
 categories:
-- Spring
-  description: Spring、Cache Abstraction、Cache
-  keywords: Spring、Cache Abstraction、Cache
+  - Spring 
+description: Spring、Cache Abstraction、Cache
+keywords: Cache Abstraction
 ---
 
 Spring框架提供了缓存的支持。Spring的Cache Abstraction对各种缓存方案提供了一致的使用方法，同业务代码解耦，减少了对业务代码的影响。
