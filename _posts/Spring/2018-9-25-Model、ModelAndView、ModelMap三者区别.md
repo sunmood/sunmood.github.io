@@ -2,7 +2,7 @@
 layout: post
 title: Model、ModelAndView、ModelMap三者区别
 categories:
-  - SpringMVC
+  - Spring
 description: Model、ModelAndView、ModelMap三者区别
 keywords: 'SpringMVC'
 ---
